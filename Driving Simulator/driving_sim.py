@@ -1,7 +1,7 @@
 ###this program simulates a person driving from point A to point B###
 import time
 def main():
-    print("Driving Simulator 1.0\nMade by Fiqhy Bismadhika\n########################")
+    print("Driving Simulator 1.1\nMade by Fiqhy Bismadhika\n########################")
 
 ##important variables or inputs
     name    =input("Enter the person's name:").title()
@@ -14,9 +14,9 @@ def main():
     speedlim= l = 60
     print("=>Speed limit is 60 m/s")
    #speedlim= l =int(input("Enter the amount of speed limit(m/s):"))
-    t_spent = t =int(input("Enter the amount of time spent(s):"))
-    acc     = a =int(input("Enter the amount of acceleration(m/s2):"))
-    dis     = d =int(input("Enter the amount of distance(m):"))
+    t_spent = t =(int(input("Enter the amount of time spent(s):")))
+    acc     = a =(int(input("Enter the amount of acceleration(m/s2):")))
+    dis     = d =(int(input("Enter the amount of distance(m):")))
 
     print(name + " is driving to the destination...")
 ###################################################
@@ -51,7 +51,12 @@ def main():
         print(name+" did not reach the destination, reached ",int(s)," m")
 
     def end():
-        print("Simulation is complete, shutting down...")
+        print("Simulation is complete")
     time.sleep(3),end()
-    time.sleep(5)
 main()
+while True:
+    rest=input("Press r to restart and q to quit")
+    if rest =="r":
+        main()
+    elif rest =="q":
+        quit()
