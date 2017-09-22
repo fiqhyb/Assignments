@@ -14,9 +14,9 @@ def main():
     speedlim= l = 60
     print("=>Speed limit is 60 m/s")
    #speedlim= l =int(input("Enter the amount of speed limit(m/s):"))
-    t_spent = t =(int(input("Enter the amount of time spent(s):")))
-    acc     = a =(int(input("Enter the amount of acceleration(m/s2):")))
-    dis     = d =(int(input("Enter the amount of distance(m):")))
+    t_spent = t =(int(input("Enter the amount of time spent(s)      :")))
+    acc     = a =(int(input("Enter the amount of acceleration(m/s2) :")))
+    dis     = d =(int(input("Enter the amount of distance(m)        :")))
 
     print(name + " is driving to the destination...")
 ###################################################
