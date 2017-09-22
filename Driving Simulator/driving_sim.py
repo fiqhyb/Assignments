@@ -34,8 +34,8 @@ def main():
     print("Loading output...")
     for i in range(t + 1):
         time.sleep(1)
-        k = int(((i * v)/2) / 10)
-        print("Duration:", i, ("sec"), "Distance:", "*" * k,"(",(i*v)/2,"m"")")
+        k = int((a/2)*(i**2) / 10)
+        print("Duration:", i, ("sec"), "Distance:", "*" * k,"(",(a/2)*(i**2),"m"")")
 
 ##conditions
     if v>l:
