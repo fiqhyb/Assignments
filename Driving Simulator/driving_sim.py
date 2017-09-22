@@ -1,7 +1,7 @@
 ###this program simulates a person driving from point A to point B###
 import time
 def main():
-    print("Driving Simulator 1.1\nMade by Fiqhy Bismadhika\n########################")
+    print("Driving Simulator 1.12\nMade by Fiqhy Bismadhika\n########################")
 
 ##important variables or inputs
     name    =input("Enter the person's name:").title()
@@ -35,8 +35,8 @@ def main():
     print("Loading output...")
     time.sleep(5)
     for i in range(t + 1):
-        k = int(i * v / 10)
-        print("Duration:", i, ("sec"), "Distance:", "*" * k,"(",i*v,"m"")")
+        k = int(((i * v)/2) / 10)
+        print("Duration:", i, ("sec"), "Distance:", "*" * k,"(",(i*v)/2,"m"")")
     time.sleep(10)
 
 ##conditions
