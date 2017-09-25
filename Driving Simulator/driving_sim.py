@@ -38,6 +38,7 @@ def main():
         print("Duration:", i, ("sec"), "Distance:", "*" * k,"(",(a/2)*(i**2),"m"")")
 
 ##conditions
+    time.sleep(3)
     if v>l:
         print(name+" went over the speed limit, max speed was ",(v)," m/s")
     else:
